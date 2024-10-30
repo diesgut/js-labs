@@ -12,3 +12,4 @@ console.log(JSON.stringify(completePerson), `Is same person ${completePerson ===
 
 const copyPerson = { ...completePerson };
 console.log(JSON.stringify(copyPerson), `Is same person ${completePerson === copyPerson}`); //{"documentNumber":"45454545","name":"Diego","documentType":"DNI","age":21} Is same person false
+

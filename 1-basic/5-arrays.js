@@ -1,6 +1,9 @@
 const team1 = ['Rous', 'Sarah', 'Nova'];
 const team2 = ['Jim', 'Leo', 'Chriss'];
 
+const [rosita, sarita] = team1;
+console.log(`${rosita} - ${sarita}`); //Rous - Sarah
+
 const all = ['Diego', ...team1, ...team2]
 console.log('All members ', JSON.stringify(all)); //["Diego","Rous","Sarah","Nova","Jim","Leo","Chriss"]
 
